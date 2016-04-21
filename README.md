@@ -14,7 +14,7 @@ Does not currently support `SendRawEmail`.
 ## Install
 
 ```
-npm install amazon-ses-with-region
+npm install amazon-ses-mailer
 ```
 
 ## Verify Source Email
@@ -22,7 +22,7 @@ npm install amazon-ses-with-region
 Verify the source email address with Amazon.
 
 ```js
-var AmazonSES = require('amazon-ses-with-region');
+var AmazonSES = require('amazon-ses-mailer');
 var ses = new AmazonSES('access-key-id', 'secret-access-key', 'region');
 ses.verifyEmailAddress('foo@mailinator.com');
 ```

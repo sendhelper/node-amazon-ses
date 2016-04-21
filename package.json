@@ -1,7 +1,7 @@
 {
-  "name": "amazon-ses",
-  "description": "Simple Amazon SES Mailer",
-  "version": "0.1.0",
+  "name": "amazon-ses-mailer",
+  "description": "Simple Amazon SES Mailer (maintained version of the 'amazon-ses' package).",
+  "version": "0.2.0",
   "author": "Jim Jenkins <jim.jenkins@gmail.com>",
   "contributors": [
     "Antoine Rousseau <antoine@rousseau.im>"
@@ -9,14 +9,15 @@
   "homepage": "https://github.com/antoinerousseau/node-amazon-ses",
   "bugs": "https://github.com/antoinerousseau/node-amazon-ses/issues",
   "dependencies": {
-    "request": "^2.69.0",
+    "request": "^2.72.0",
     "underscore": "^1.8.3",
     "xml2js": "^0.4.16"
   },
   "keywords": [
     "email",
     "amazon",
-    "ses"
+    "ses",
+    "mailer"
   ],
   "license": "MIT",
   "repository": "https://github.com/antoinerousseau/node-amazon-ses.git",
