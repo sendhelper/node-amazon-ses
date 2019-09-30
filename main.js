@@ -96,6 +96,9 @@ var AmazonSES = (function() {
         if (error) {
           return opts.callback(error);
         }
+        if(!data) {
+          return opts.callback(new Error('No data body found from SES request'));
+        }
         if (data.Error) {
           return opts.callback(new Error(data.Error.Message));
         }
