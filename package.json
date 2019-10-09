@@ -1,7 +1,7 @@
 {
   "name": "amazon-ses-mailer",
-  "description": "Simple Amazon SES Mailer (maintained version of the 'amazon-ses' package).",
-  "version": "0.2.0",
+  "description": "Simple Amazon SES Mailer (maintained version of the 'amazon-ses' package) - sendhelper",
+  "version": "1.0.0",
   "author": "Jim Jenkins <jim.jenkins@gmail.com>",
   "contributors": [
     "Antoine Rousseau <antoine@rousseau.im>"
